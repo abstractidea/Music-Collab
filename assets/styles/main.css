@@ -1,0 +1,78 @@
+body, html {
+    background-color: #555;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#editor {
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#chat {
+    overflow: auto;
+}
+
+#chat div {
+    display: none;
+}
+
+#nav, #chat {
+    background-color: #ccc;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 240px;
+}
+
+#nav {
+    left: 0;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.message {
+    background-color: #ff4141;
+    color: #eee;
+    float: right;
+    margin: 8px auto;
+    padding: 8px;
+    width: 90%;
+}
+
+nav ul, nav li {
+    maring: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav li, nav a {
+    display: inline-block;
+}
+
+nav a {
+    border-bottom: 1px solid #ddd;
+    color: #111;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    width:100%;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: #eee;
+}
+
+nav a span {
+    display: inline-block;
+    padding: 1rem 0 1rem 3.4rem;
+}
