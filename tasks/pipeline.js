@@ -27,10 +27,20 @@ var jsFilesToInject = [
   'js/dependencies/sails.io.js',
 
   // Dependencies like jQuery, or Angular are brought in here
+  'js/dependencies/jquery*.js', 
+  'js/dependencies/MIDI*.js', 
+  'js/dependencies/Base*.js', 
+  'js/dependencies/DOM*.js', 
+
+  // Generic Catch-All for dependencies
   'js/dependencies/**/*.js',
 
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
+  'js/app.js', 
+  'js/app*.js', 
+
+  // Generic Catch-All for custom js
   'js/**/*.js'
 ];
 
